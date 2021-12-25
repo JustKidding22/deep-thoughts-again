@@ -22,5 +22,8 @@
   "homepage": "https://github.com/JustKidding22/deep-thoughts-again#readme",
   "devDependencies": {
     "concurrently": "^6.5.1"
+  },
+  "dependencies": {
+    "jwt-decode": "^3.1.2"
   }
 }
