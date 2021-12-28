@@ -1,10 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
-import Auth from '../../utils/auth';
+import Auth from "../../utils/auth";
+import { Link } from "react-router-dom";
+import React from "react";
 
 const Header = () => {
-  const logout = event => {
+  const logout = (event) => {
     event.preventDefault();
     Auth.logout();
   };
